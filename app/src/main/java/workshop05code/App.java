@@ -52,7 +52,7 @@ public class App {
 
         // let's add some words to valid 4 letter words from the data.txt file
 
-        try (BufferedReader br = new BufferedReader(new FileReader("resources/data.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("/home/joe/COMP3310/w05sqlinjectionpub-MagicMonkey3/resources/data.txt"))) {
             String line;
             int i = 1;
             while ((line = br.readLine()) != null) {
