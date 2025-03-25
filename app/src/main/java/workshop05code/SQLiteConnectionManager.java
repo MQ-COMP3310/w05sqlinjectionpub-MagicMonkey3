@@ -22,7 +22,7 @@ public class SQLiteConnectionManager {
         // must set before the Logger
         // loads logging.properties from the classpath
         try {// resources\logging.properties
-            LogManager.getLogManager().readConfiguration(new FileInputStream("logging.properties"));
+            LogManager.getLogManager().readConfiguration(new FileInputStream("resources/logging.properties"));
         } catch (SecurityException | IOException e1) {
             e1.printStackTrace();
         }
